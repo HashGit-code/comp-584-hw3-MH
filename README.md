@@ -6,4 +6,4 @@ An HTML email campaign for a fictional campus technology workshop. This version 
 
 The accessibility review, including tool screenshots and pros and cons, is in [assets/accessibility-findings.pdf](assets/accessibility-findings.pdf).
 
-The campaign is a classroom demonstration. It does not advertise a real event or collect sign-ups.
+
