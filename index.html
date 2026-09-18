@@ -12,23 +12,27 @@
     table { border-collapse: collapse !important; }
     img { -ms-interpolation-mode: bicubic; border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; }
     body { margin: 0 !important; padding: 0 !important; width: 100% !important; }
+    @media screen and (max-width: 620px) {
+      .email-container { width: 100% !important; }
+      .email-heading { font-size: 29px !important; line-height: 35px !important; }
+    }
   </style>
 </head>
 <body style="margin: 0; padding: 0; background-color: #eaf0f5;">
   <div style="display: none; font-size: 1px; line-height: 1px; color: #eaf0f5; max-height: 0; max-width: 0; opacity: 0; overflow: hidden;">A welcoming hands-on workshop for curious campus creators.</div>
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="width: 100%; table-layout: fixed; background-color: #eaf0f5;">
     <tr><td align="center" style="padding: 28px 14px;">
-      <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="width: 100%; max-width: 600px; table-layout: fixed; background-color: #ffffff;">
+      <table class="email-container" role="presentation" width="600" cellpadding="0" cellspacing="0" border="0" style="width: 100%; max-width: 600px; table-layout: fixed; background-color: #ffffff;">
         <tr><td style="padding: 24px 32px; background-color: #102447;">
           <p style="margin: 0; font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 18px; font-weight: bold; letter-spacing: 2px; text-transform: uppercase; color: #8fe2f5;">Campus Creative Lab</p>
         </td></tr>
         <tr><td style="padding: 0;">
-          <img src="images/workshop-hero.png" alt="Illustration of a laptop with colorful code on a desk beside a notebook and lamp" style="display: block; width: 100%; max-width: 600px; height: auto;" />
+          <img src="images/workshop-hero.jpg" width="600" alt="A laptop displays colorful code beside a notebook under a warm desk lamp" style="display: block; width: 100%; max-width: 100%; min-width: 100px; height: auto;" />
         </td></tr>
-        <tr><td style="padding: 34px 32px 12px;">
-          <p style="margin: 0 0 12px; font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 18px; font-weight: bold; letter-spacing: 2px; text-transform: uppercase; color: #bc4b3e;">A hands-on invitation</p>
-          <h1 style="margin: 0 0 18px; font-family: Arial, Helvetica, sans-serif; font-size: 34px; line-height: 40px; font-weight: bold; color: #102447;">Build something brilliant.</h1>
-          <p style="margin: 0; font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 26px; color: #34445c;">Curious about making your own web page? Our campus technology workshop is a friendly place to try HTML and CSS, share ideas, and create something you can show your friends.</p>
+        <tr><td background="images/workshop-banner.jpg" bgcolor="#102447" style="padding: 34px 32px 32px; background-color: #102447; background-image: url('images/workshop-banner.jpg'); background-position: center center; background-repeat: no-repeat; background-size: cover;">
+          <p style="margin: 0 0 12px; font-family: Arial, Helvetica, sans-serif; font-size: 12px; line-height: 18px; font-weight: bold; letter-spacing: 2px; text-transform: uppercase; color: #8fe2f5;">A hands-on invitation</p>
+          <h1 class="email-heading" style="margin: 0 0 18px; font-family: Arial, Helvetica, sans-serif; font-size: 34px; line-height: 40px; font-weight: bold; color: #ffffff;">Build something brilliant.</h1>
+          <p style="margin: 0; font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 26px; color: #ffffff;">Curious about making your own web page? Our campus technology workshop is a friendly place to try HTML and CSS, share ideas, and create something you can show your friends.</p>
         </td></tr>
         <tr><td style="padding: 18px 32px 10px;">
           <div style="padding: 22px 24px; background-color: #f2f7fa; border-left: 4px solid #1a9db6;">
@@ -36,9 +40,13 @@
             <p style="margin: 0; font-family: Arial, Helvetica, sans-serif; font-size: 15px; line-height: 24px; color: #34445c;">Structure a page with HTML, give it personality with CSS, and leave with a small project of your own. Beginners are welcome; bring your curiosity.</p>
           </div>
         </td></tr>
-        <tr><td style="padding: 20px 32px 36px;">
+        <tr><td style="padding: 20px 32px 42px;">
           <p style="margin: 0 0 22px; font-family: Arial, Helvetica, sans-serif; font-size: 15px; line-height: 24px; color: #34445c;">Want a head start? Take a look at the HTML guide we will use as a learning resource.</p>
-          <a href="https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Your_first_website/Creating_the_content" style="display: inline-block; padding: 15px 22px; background-color: #bc4b3e; border-radius: 4px; font-family: Arial, Helvetica, sans-serif; font-size: 15px; line-height: 20px; font-weight: bold; text-decoration: none; color: #ffffff;">Explore HTML basics &rarr;</a>
+          <table role="presentation" align="center" cellpadding="0" cellspacing="0" border="0" style="margin: 0 auto;">
+            <tr><td align="center" bgcolor="#bc4b3e" style="border-radius: 4px; background-color: #bc4b3e;">
+              <a href="https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Your_first_website/Creating_the_content" style="display: inline-block; padding: 17px 26px; border: 1px solid #bc4b3e; border-radius: 4px; font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 22px; font-weight: bold; text-align: center; text-decoration: underline; color: #ffffff;">Explore HTML basics &rarr;</a>
+            </td></tr>
+          </table>
         </td></tr>
         <tr><td style="padding: 24px 32px; background-color: #102447;">
           <p style="margin: 0 0 8px; font-family: Arial, Helvetica, sans-serif; font-size: 13px; line-height: 20px; color: #c6d5e7;">Campus Creative Lab &bull; A sample workshop email campaign</p>
